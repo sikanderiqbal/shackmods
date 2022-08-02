@@ -1,0 +1,130 @@
+div.modcontrols {
+    float: none;
+    position: absolute;
+    top: -1px;
+    right: 65px;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+span.currentflag {
+    background-color: #000;
+    border: 1px solid #56267a;
+    text-decoration: none;
+    color: #ddd;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 8px 2px 25px;
+    background-image: url('https://d2yrh6ykumdc80.cloudfront.net/deploy/www-34c107a/images/icons/moderator.png');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 15px 15px;
+}
+
+div.modcontrols > span:nth-child(2) {
+    position: absolute;
+    max-width: 250px;
+    height: auto;
+    right: -66px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    border: 1px solid rgb(86, 38, 122);
+    padding: 10px 15px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+div.modcontrols span span {
+    display: block;
+}
+
+div.nukebox {
+    left: auto;
+    right: -66px;
+    z-index: 1000;
+}
+
+div.fpmod_political {
+    border-top: 2px solid #f7941c;
+}
+
+div.fpmod_stupid {
+    border-top: 2px solid green;
+}
+
+div.fpmod_offtopic {
+    border-top: 2px solid purple;
+}
+
+div.fpmod_nuked {
+    border-top: 2px solid #fff;
+    opacity: .5;
+}
+
+div.fpmod_nuked div.postbody {
+    color: #888;
+}
+
+div.olmod_nuked {
+    opacity: .5;
+}
+
+div.olmod_nuked::before {
+    content: '• N U K E D •';
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 2px 3px;
+    border-radius: 5px;
+    color: #333;
+    font-size: .8em;
+}
+
+div.fpmod_stupid::before,
+div.fpmod_ontopic::before,
+div.fpmod_nws::before,
+div.fpmod_nuked::before,
+div.fpmod_political::before,
+div.fpmod_informative::before,
+div.fpmod_offtopic::before {
+    content: ' ';
+    color: white;
+    padding: 2px 3px;
+    border-radius: 5px;
+    font-size: 10px;
+    position: absolute;
+    line-height: 1em;
+    left: 20px;
+    bottom: 3px;
+}
+
+div.fpmod_stupid::before {
+    content: '• S T U P I D •';
+    background-color: green;
+}
+
+div.fpmod_nuked::before {
+    content: '• N U K E D •';
+    background-color: #fff;
+    color: #333;
+}
+
+div.fpmod_political::before {
+    content: '• P O L I T I C A L •';
+    background-color: #9d6600;
+}
+
+div.fpmod_nws::before {
+    content: '• N W S •';
+    background-color: red;
+}
+
+div.fpmod_informative::before {
+    content: '• I N F •';
+    background-color: #2268fa;
+}
+
+div.fpmod_offtopic::before {
+    content: '• T A N G E N T •';
+    background-color: purple;
+}
