@@ -37,7 +37,26 @@ div.modcontrols > span:nth-child(2) {
 
 div.modcontrols span span {
     display: block;
+    padding-bottom:2px;
+    font-size:14px;
+    font-family:monospace;
 }
+
+div.modcontrols span span.modip {
+    margin-bottom:13px;
+    font-size:12px;
+    text-align:center;
+}
+
+div.modcontrols span span.modinteresting:before{content:"⛊"; color: #5ac2fd;}
+div.modcontrols span span.modnws:before{content:"⛊"; color: #ff00e1;}
+div.modcontrols span span.modstupid:before{content:"⛊"; color: #734f1a;}
+div.modcontrols span span.modtangent:before{content:"⛊"; color: #8f9599;}
+div.modcontrols span span.modontopic:before{content:"⛊"; color: #47ec17;}
+div.modcontrols span span.moddp:before{content:"⛊"; color: #9f30c6;}
+div.modcontrols span span.modnuke:before{content:"☢"; color: #fd1402;}
+div.modcontrols span span.modpolitical:before{content:"⛊"; color: #c8a51f;}
+div.modcontrols span span.modshadowban{margin-top:6px;padding-top:6px;border-top:1px dashed #fbfbfb;}
 
 div.nukebox {
     left: auto;
