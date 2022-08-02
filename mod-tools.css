@@ -73,7 +73,7 @@ div.olmod_nuked {
 div.olmod_nuked::before {
     content: '• N U K E D •';
     background-color: #fff;
-    border: 1px solid #333;
+    border: 1px solid #fb0a0a;
     padding: 2px 3px;
     border-radius: 5px;
     color: #333;
