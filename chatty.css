@@ -1,0 +1,135 @@
+.page-chatty .article {
+    max-height: 300px;
+    overflow: auto;
+}
+.page-chatty #main .article .article-body {
+    padding-top: 0;
+}
+.page-chatty .article a {
+    background-color: white;
+    color: #333;
+    padding: 0 2px;
+}
+.threads {
+    font-size: 1.5em;
+}
+div.commentsblock {
+    line-height: 2em;
+}
+div.fpauthor_168765 div.postbody {
+    font-size: inherit;
+    line-height: inherit;
+    padding-top: 110px;
+}
+div.olauthor_168765:before {
+    content: '';
+}
+div.olauthor_168765 span.oneline_body {
+    color: #bbb;
+}
+div#newcommentbutton a:link,
+div#newcommentbutton a:visited,
+div#newcommentbutton a:active,
+div#newcommentbutton a:hover {
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    text-indent: 0;
+    color: #fff;
+}
+
+
+#page.theme2 .lol-tags .tag-container {
+    background-color: transparent;
+}
+
+#page.theme2 .lol-tags .tag-container.wtf {
+    display: none;
+}
+
+#page.theme2 .chatty-user-icons {
+    filter: grayscale(1) brightness(.5);
+}
+
+#page.theme2 .chatty-user-icons:hover {
+    filter: grayscale(.5) brightness(1);
+}
+
+div.oneline span.oneline_user {
+    margin-right: 5px;
+}
+
+#page.theme2 .fullpost .lol-tags:before {
+    content: 'tags';
+    color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .3);
+    padding: 3px 5px;
+    line-height: 1em;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+#page.theme2 .fullpost .lol-tags span {
+    display: none;
+}
+
+#page.theme2 .fullpost .lol-tags span.nonzero {
+    display: inline-block;
+}
+
+#page.theme2 .fullpost .lol-tags:hover span,
+#page.theme2 .fullpost .lol-tags:focus span {
+    display: inline-block;
+}
+
+#page.theme2 .lol-tags .tag-container.wow {
+    color: #c7c700;
+}
+
+#page.theme2 .lol-tags .tag-container.aww {
+    color: pink;
+}
+
+#page.theme2 .lol-tags .tag-container.engaged.lol,
+#page.theme2 .lol-tags .tag-container.engaged.inf,
+#page.theme2 .lol-tags .tag-container.engaged.unf,
+#page.theme2 .lol-tags .tag-container.engaged.wow,
+#page.theme2 .lol-tags .tag-container.engaged.aww,
+#page.theme2 .lol-tags .tag-container.engaged.tag {
+    background-color: transparent;
+}
+
+#page.theme2 .lol-tags .tag-container.engaged.lol {
+    color: #f80;
+}
+
+#page.theme2 .lol-tags .tag-container.engaged.inf {
+    color: #09c
+}
+
+#page.theme2 .lol-tags .tag-container.engaged.unf {
+    color: #eb0000;
+}
+#page.theme2 .lol-tags .tag-container.engaged.wow {
+    color: #c7c700;
+}
+#page.theme2 .lol-tags .tag-container.engaged.aww {
+    color: pink;
+}
+#page.theme2 .lol-tags .tag-container.engaged.tag {
+    color: #7b2;
+}
+
+#page.theme2 .lol-tags .tag-container.engaged:before {
+    content: '• ['
+}
+
+#page.theme2 .lol-tags .tag-container.engaged:after {
+    content: '] •'
+}
+
+#page.theme2 .lol-tags {}
+
+.clear-fix div.article {
+    display: none;
+}
