@@ -55,6 +55,7 @@ div.modcontrols span span.modtangent:before{content:"⛊"; color: #8f9599;}
 div.modcontrols span span.modontopic:before{content:"⛊"; color: #47ec17;}
 div.modcontrols span span.moddp:before{content:"⛊"; color: #9f30c6;}
 div.modcontrols span span.modnuke:before{content:"☢"; color: #fd1402;}
+div.modcontrols span span.modnuke ~ .modnuke:before {content:"" }
 div.modcontrols span span.modpolitical:before{content:"⛊"; color: #c8a51f;}
 div.modcontrols span span.modshadowban{margin-top:6px;padding-top:6px;border-top:1px dashed #fbfbfb;}
 
