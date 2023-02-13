@@ -115,7 +115,7 @@ div.fpmod_offtopic::before {
     position: absolute;
     line-height: 1em;
     left: 20px;
-    bottom: 4px;
+    bottom: 3px;
 }
 
 div.fpmod_stupid::before {
